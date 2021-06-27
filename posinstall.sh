@@ -3,8 +3,6 @@ set -e
 
 PACOTES_APT="(net-tools build-essential)"
 
-apt update
-
 cd $(mktemp -d)
 ${PACOTES_APT[@]}
 
